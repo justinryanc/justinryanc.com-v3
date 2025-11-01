@@ -1,0 +1,21 @@
+:root {
+  --hx-color-white: #EFF2F6;
+  --hx-color-gray-100: #D1DBE6;
+  --hx-color-dark: #1B2631;
+  --hx-color-neutral-900: #17202A;
+  --hx-color-neutral-800: #212F3C;
+  --primary-hue: 212deg;
+  --primary-saturation: 12%;
+  --primary-lightness: 72%;
+}
+
+.content :where(hr):not(:where([class~="not-prose"], [class~="not-prose"] *)):where(.dark, .dark *) {
+  border-color: #283747;
+  border-width: 2px;
+}
+
+/*
+body:where(.dark,.dark *) {
+  background-color: var(--hx-color-neutral-800);
+}
+*/
