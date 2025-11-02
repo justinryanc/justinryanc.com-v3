@@ -22,11 +22,6 @@ params:
 
   externalLinkDecoration: true
 
-  #banner:
-  #  key: 'announcement-v0.11'
-  #  message: |
-  #    Hextra **v0.11** is here! 🎉 Discover [what's new]({{% ref "blog/v0.11" %}})
-
   navbar:
     displayTitle: true
     displayLogo: true
@@ -109,9 +104,24 @@ menu:
     - name: About
       pageRef: /about
       weight: 1
+    - identifier: posts
+      name: Posts
+      weight: 2
+    - name: All Posts
+      parent: posts
+      pageRef: /posts
+      weight: 1
+    - name: Categories
+      parent: posts
+      pageRef: /categories
+      weight: 2
+    - name: Tags
+      parent: posts
+      pageRef: /tags
+      weight: 3
     - identifier: photography
       name: Photography
-      weight: 2
+      weight: 3
     - name: Portfolio
       parent: photography
       pageRef: /photography
@@ -122,13 +132,18 @@ menu:
       url: "https://www.flickr.com/people/chambersjr"
     - name: Resume
       pageRef: /resume
-      weight: 3
-    - name: Search
       weight: 4
+    - name: Search
+      weight: 5
       params:
         type: search
+    - name: GitHub
+      weight: 6
+      url: "https://github.com/justinryanc"
+      params:
+        icon: github
     - name: LinkedIn
-      weight: 5
+      weight: 7
       url: "https://www.linkedin.com/in/justinryanc"
       params:
         icon: linkedin
