@@ -57,7 +57,7 @@ The certifications below are older and have either been retired or expired.
 <br/>
 
 <div class="cert-row">
-  <a href="mcse_security.pdf" target="_blank">
+  <a href="/mcse_security.pdf" target="_blank">
     <img src="/mcse_security.jpg" alt="Microsoft Certified Systems Engineer: Security on Windows Server 2003" width="165">
   </a>
   <a href="https://www.credly.com/badges/2ee220bf-69f7-472c-9d50-e51e9db9a396/public_url" target="_blank">
