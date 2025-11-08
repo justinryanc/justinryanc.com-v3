@@ -147,11 +147,6 @@ menu:
       url: "https://www.flickr.com/people/chambersjr/"
       params:
         icon: flickr
-    - name: GitHub
-      weight: 7
-      url: "https://github.com/justinryanc"
-      params:
-        icon: github
     - name: LinkedIn
       weight: 8
       url: "https://www.linkedin.com/in/justinryanc"
