@@ -21,6 +21,11 @@ outputs:
   page: [html]
   section: [html, rss]
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 params:
   description: IT Professional and Photographer
 
@@ -123,31 +128,32 @@ menu:
       parent: posts
       pageRef: /tags
       weight: 3
-    - identifier: photography
-      name: Photography
-      weight: 3
-    - name: Portfolio
-      parent: photography
+    - name: Photography
       pageRef: /photography
-      weight: 1
-    - name: Flickr
-      parent: photography
-      weight: 2
+      weight: 3
       url: "https://www.flickr.com/people/chambersjr"
+    - name: Certifications
+      pageRef: /certifications
+      weight: 4
     - name: Resume
       pageRef: /resume
-      weight: 4
-    - name: Search
       weight: 5
+    - name: Search
+      weight: 6
       params:
         type: search
+    - name: Flickr
+      weight: 7
+      url: "https://www.flickr.com/people/chambersjr/"
+      params:
+        icon: flickr
     - name: GitHub
-      weight: 6
+      weight: 7
       url: "https://github.com/justinryanc"
       params:
         icon: github
     - name: LinkedIn
-      weight: 7
+      weight: 8
       url: "https://www.linkedin.com/in/justinryanc"
       params:
         icon: linkedin
