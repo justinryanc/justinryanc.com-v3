@@ -1,6 +1,9 @@
 ---
 date: "2025-10-13T12:30:51-04:00"
 draft: false
+title: My First Post
+slug: my-first-post
+description: "Tired of using WordPress, my new site is built using Hugo."
 categories:
 - General
 tags:
@@ -10,7 +13,6 @@ tags:
 - GitHub
 - Cloudflare
 - Website
-title: My First Post
 ---
 
 **New website is live!**

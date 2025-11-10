@@ -1,7 +1,8 @@
 ---
 draft: false
-title: Portfolio
+title: Photography
 comments: false
+weight: 3
 ---
 
 I plan to add my portfolio here in the future, for now check out Flickr for my portfolio.

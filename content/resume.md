@@ -2,6 +2,7 @@
 draft: false
 title: Resume
 comments: false
+weight: 5
 ---
 
 **Justin Ryan Chambers**  

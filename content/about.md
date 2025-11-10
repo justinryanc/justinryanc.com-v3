@@ -2,6 +2,7 @@
 draft: false
 title: About
 comments: false
+weight: 1
 ---
 
 ![Photo of myself](/me.jpg)

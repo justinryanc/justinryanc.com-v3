@@ -2,6 +2,7 @@
 draft: false
 title: Certifications
 comments: false
+weight: 4
 ---
 
 I've achieved numerous Microsoft, CompTIA and Cisco certifications along with over 20 years of experience in Information Technology.
