@@ -3,7 +3,7 @@ date: "2025-10-13T12:30:51-04:00"
 draft: false
 title: My First Post
 slug: my-first-post
-description: "Tired of using WordPress, my new site is built using Hugo."
+description: "I’ve used WordPress for at least a decade and the constant updates, security exploits, recurring licensing and hosting costs were just too much effort to maintain."
 categories:
 - General
 tags:
