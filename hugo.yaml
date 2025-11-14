@@ -149,8 +149,3 @@ menu:
       url: "https://www.flickr.com/people/chambersjr/"
       params:
         icon: flickr
-    - name: LinkedIn
-      weight: 8
-      url: "https://www.linkedin.com/in/justinryanc"
-      params:
-        icon: linkedin
