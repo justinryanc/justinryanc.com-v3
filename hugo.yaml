@@ -7,7 +7,7 @@ services:
     ID: G-13TKLWPQ3E
 
 baseURL: https://justinryanc.com
-languageCode: en-us
+locale: en-us
 title: Justin Ryan Chambers
 
 caches:
